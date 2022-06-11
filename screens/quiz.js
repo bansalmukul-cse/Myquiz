@@ -46,7 +46,7 @@ const Quiz = ({ navigation }) => {
     }
 
     const handSelectedOption=(_option)=>{
-        if((_option===questions[ques].correct_answer){
+        if((_option===questions[ques].correct_answer)){
             setScore(score+10)
         }
         if(ques!=9){
